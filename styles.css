@@ -85,6 +85,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    color: white;
 }
 
 .heading-text-btn > p {
@@ -253,5 +254,12 @@ footer {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
+    width: 100%;
+    flex-basis: 120px;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
  
 }
