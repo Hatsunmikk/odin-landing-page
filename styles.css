@@ -40,6 +40,13 @@ ul {
     margin: 10px;
 }
 
+.link-box {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 200px;
+    gap: 25px;
+}
+
 .nav-container {
     background-color: #1f2937;
     width: 100%;
