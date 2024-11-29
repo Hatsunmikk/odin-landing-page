@@ -123,6 +123,7 @@ ul {
     flex-basis: 200px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .box-holder {
@@ -133,6 +134,7 @@ ul {
     width: 100%;
     flex-basis: 500px;
     flex-direction: row;
+    flex-wrap: wrap;
 
     
 }
@@ -141,6 +143,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
    
 }
 
@@ -149,6 +152,9 @@ ul {
     height: 200px;
     border-radius: 10px;
     border: solid 4px #3882f6;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .item-description {
@@ -158,6 +164,7 @@ ul {
     align-items: center;
     text-align: center;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 .quote-container {
