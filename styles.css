@@ -212,8 +212,23 @@ ul {
 
 .cta-container {
     display: flex;
-    width: 100%
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    justify-content: center;
+    align-items: center;
+
     
+}
+
+.cta-banner {
+    display: flex;
+    background-color: #3882f6;
+    flex-basis: 1100px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
 }
 
 footer {
